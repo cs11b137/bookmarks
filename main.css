@@ -56,6 +56,11 @@ a {
     border-radius: 3px;
 }
 
+.card:hover {
+    cursor: pointer;
+    background-color: #dce3f8;
+}
+
 .card-icon {
     position: relative;
     float: left;
