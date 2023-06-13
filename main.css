@@ -7,6 +7,9 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #f0f4fb;
 }
 
@@ -18,10 +21,10 @@ a {
 
 .container {
     position: relative;
-    float: right;
-    width: 880px;
+    width: 1130px;
     min-height: 200px;
     height: auto;
+    margin-top: 20px;
 }
 
 .module {
@@ -43,13 +46,23 @@ a {
     font-weight: 600;
     margin-top: -5px;
     color: #666;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.title-icon {
+    height: 20px;
+    margin-right: 5px;
 }
 
 .content {
     padding-top: 20px;
-    display: block;
     min-height: 100px;
     height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -57,7 +70,8 @@ a {
     padding: 10px;
     background-color: #f5f7fd;
     float: left;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     margin-bottom: 10px;
     overflow: hidden;
     min-height: 42px;
