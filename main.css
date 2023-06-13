@@ -1,5 +1,79 @@
-#main-content {
-    font-size: 36px;
-    font-weight: bold;
-    padding: 16px;
-  }
+body {
+    background-color: #f0f4fb;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    outline: none;
+}
+
+.container {
+    position: relative;
+    float: right;
+    width: 880px;
+    min-height: 200px;
+    height: auto;
+}
+
+.module {
+    position: relative;
+    margin-bottom: 15px;
+    width: 100%;
+    min-height: 10px;
+    height: auto;
+    padding: 20px 15px;
+    background-color: white;
+    font-size: 14px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 20px rgb(238 242 245 / 80%);
+}
+
+.title {
+    line-height: 30px;
+    text-align: left;
+    font-weight: 600;
+    margin-top: -5px;
+    color: #666;
+}
+
+.content {
+    padding-top: 20px;
+    display: block;
+    min-height: 100px;
+    height: auto;
+}
+
+.card {
+    position: relative;
+    padding: 10px;
+    background-color: #f5f7fd;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    min-height: 42px;
+    border-radius: 3px;
+}
+
+.card-icon {
+    position: relative;
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+}
+
+.card-title {
+    text-align: left;
+    width: 180px;
+    font-weight: 400;
+    text-indent: 5px;
+}
+
+.card-desc {
+    font-size: 11px;
+    color: #7c7a7a;
+    text-indent: 0px;
+    margin-top: 5px;
+}
