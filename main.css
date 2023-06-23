@@ -21,7 +21,7 @@ a {
 
 .container {
     position: relative;
-    width: 912px;
+    width: 1200px;
     min-height: 200px;
     height: auto;
     margin-top: 20px;
@@ -93,7 +93,7 @@ a {
 
 .card-title {
     text-align: left;
-    width: 180px;
+    width: 194px;
     font-weight: 400;
     text-indent: 5px;
 }
